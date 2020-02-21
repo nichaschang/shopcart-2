@@ -8,7 +8,7 @@ const sql=require('mysql');
 
 app.set('view engine','ejs');
 // app.set('views',__dirname+'/../views');//指定ejs的路徑，不一定要設定
-
+app.use(express.static(__dirname+'/../public'));//設定靜態資料夾,提供圖片使用
 app.get('/shopcart1',(req,res)=>{
     res.render('shopcart1')
 })
