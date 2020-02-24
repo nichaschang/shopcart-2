@@ -22,6 +22,10 @@
         </ul>
       
       <!-- 表格部分 -->
+      <nav class="d-flex">
+        <div style="width:15%;background:#fff;" class="p-3 text-center">購物車清單</div>
+        <div style="width:15%;background:#eee;" class="p-3 text-center">收藏商品</div>
+      </nav>
       <main class="d-flex">
         <div class="shopcart-items-mao">
           <ul class="list-unstyled">
@@ -29,13 +33,13 @@
               <table class="shopcart-items-list-mao">
                   <tr>
                     <td rowspan="2" class="shopcart-img-mao">
-                      <img src="./icon/appleWatchNike.png">
+                      <img src="./img/apple-watch-Nike.jpg">
                     </td>
-                    <td><h3 class="mx-2">Apple Watch Nike</h3></td>
+                    <td class="" style="width:35%"><h4 class="mx-2">Apple Watch Nike</h4></td>
                     <td class="font-weight-bold shopcart-items-sCount-mao">$<span>6400</span></td>
-                    <td rowspan="2" class="d-flex align-items-end justify-content-center h-100">
-                      <div class="border px-2 text-center my-2 w-75">
-                        <img src="./icon/trash-2.svg" alt="">
+                    <td rowspan="2" class="d-flex align-items-center justify-content-center h-100 shopcart-items-btn-mao">
+                      <div class="border p-2 text-center my-2 w-75 d-flex justify-content-start">
+                        <img src="./img/icon/trash-2.svg" alt="">
                         <span class="px-3">移除</span>
                       </div>
                     </td>
@@ -43,24 +47,94 @@
                   <tr>
                     <td colspan="3" class="d-flex mx-2">
                       <p class="m-0">單價$6,400</p>
-                      <input type="" value="1" class="mx-3">
+                      <input type="" value="1" class="mx-3 text-center" style="width:130px;height:30px;">
                     </td>
                     <td></td>
-                    <td  class="d-flex align-items-start justify-content-center h-100">
-                      <div class="border px-2 text-center my-2 w-75">
+                    <td  class="d-flex align-items-start justify-content-center h-100 shopcart-items-btn-mao">
+                      <div class="border p-2 text-center w-75 d-flex justify-content-start">
+                        <img src="./img/icon/shopping-bag.svg" alt="">
                         <span class="px-3">下次購買</span>
                       </div>
                     </td>
                   </tr>
               </table>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              <table class="shopcart-items-list-mao">
+                  <tr>
+                    <td rowspan="2" class="shopcart-img-mao">
+                      <img src="./img/apple-watch-Nike.jpg">
+                    </td>
+                    <td class="" style="width:35%"><h4 class="mx-2">Apple Watch Nike</h4></td>
+                    <td class="font-weight-bold shopcart-items-sCount-mao">$<span>6400</span></td>
+                    <td rowspan="2" class="d-flex align-items-center justify-content-center h-100 shopcart-items-btn-mao">
+                      <div class="border p-2 text-center my-2 w-75 d-flex justify-content-start">
+                        <img src="./img/icon/trash-2.svg" alt="">
+                        <span class="px-3">移除</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" class="d-flex mx-2">
+                      <p class="m-0">單價$6,400</p>
+                      <input type="" value="1" class="mx-3 text-center" style="width:130px;height:30px;">
+                    </td>
+                    <td></td>
+                    <td  class="d-flex align-items-start justify-content-center h-100 shopcart-items-btn-mao">
+                      <div class="border p-2 text-center w-75 d-flex justify-content-start">
+                        <img src="./img/icon/shopping-bag.svg" alt="">
+                        <span class="px-3">下次購買</span>
+                      </div>
+                    </td>
+                  </tr>
+              </table>
+            </li>
+            <li>
+              <table class="shopcart-items-list-mao">
+                  <tr>
+                    <td rowspan="2" class="shopcart-img-mao">
+                      <img src="./img/apple-watch-Nike.jpg">
+                    </td>
+                    <td class="" style="width:35%"><h4 class="mx-2">Apple Watch Nike</h4></td>
+                    <td class="font-weight-bold shopcart-items-sCount-mao">$<span>6400</span></td>
+                    <td rowspan="2" class="d-flex align-items-center justify-content-center h-100 shopcart-items-btn-mao">
+                      <div class="border p-2 text-center my-2 w-75 d-flex justify-content-start">
+                        <img src="./img/icon/trash-2.svg" alt="">
+                        <span class="px-3">移除</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" class="d-flex mx-2">
+                      <p class="m-0">單價$6,400</p>
+                      <input type="" value="1" class="mx-3 text-center" style="width:130px;height:30px;">
+                    </td>
+                    <td></td>
+                    <td  class="d-flex align-items-start justify-content-center h-100 shopcart-items-btn-mao">
+                      <div class="border p-2 text-center w-75 d-flex justify-content-start">
+                        <img src="./img/icon/shopping-bag.svg" alt="">
+                        <span class="px-3">下次購買</span>
+                      </div>
+                    </td>
+                  </tr>
+              </table>
+            </li>
           </ul>
         </div>
-        <div class="shopcart-total-mao"></div>
+        <div class="shopcart-total-mao">
+          <aside>
+            <ul class="list-unstyled">
+              <li class="pt-4 pb-3 mx-4 border-bottom"><h4>TOTAL</h4></li>
+              <li class="pt-4 pb-3 mx-4">運費：<span>100</span></li>
+              <li class="pt-4 pb-3 mx-4">小計金額：<span>32000</span></li>
+              <li class="pt-4 pb-3 mx-4">活動折扣：<span>100</span></li>
+              <li class="pt-4 pb-3 mx-4">折價券輸入碼：<input type="text" class="py-3" placeholder="代碼輸入"></li>
+              <li class="pt-4 pb-3 mx-4 totalNum-mao">您的總金額<span class="float-right">$123</span></li>
+            </ul>
+          </aside>
+          <a class="btn bg-dark text-white mx-3 mt-2 d-flex align-items-center justify-content-center" style="width:90%;height:50px" href="">繼續購物</a>
+          <a class="btn bg-dark text-white mx-3 mt-4" style="width:90%;line-height:18px;height:50px" href=""><p class="m-0" style="font-size: 18px;">結帳</p><span style="font-size:16px">下一步</span></a>
+        </div>
       </main>
     </div>
     <!-- Optional JavaScript -->
